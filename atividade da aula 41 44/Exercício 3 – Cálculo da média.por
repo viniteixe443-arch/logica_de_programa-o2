@@ -9,7 +9,7 @@ programa
         escreva("Informe o segundo número: ")
         leia(n2)
                                 
-        media = (n1 + n2) / 3
+        media = (n1 + n2) / 2
 
         escreva("Média: ", media)
 
