@@ -29,7 +29,7 @@ programa {
     se(media > 12){
       escreva("O paciente: ", nomePaciente ," possui uma pressão elevada com média de: ", media, "\n")
     }  senao se (media <= 12){
-      escreva("O paciente: ", nomePaciente ," possui uma pressão controlada com controlada de: ", media, "\n")
+      escreva("O paciente: ", nomePaciente ," possui uma pressão controlada de: ", media, "\n")
     }
     escreva("Total de medições com pressão controlada: ", contadorPressaoControlada, "\n")
     escreva("Total de medições com pressão elevada: ", contadorPressaoElevada, "\n")
