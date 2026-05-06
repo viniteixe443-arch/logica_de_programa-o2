@@ -9,14 +9,14 @@ programa {
         escreva("informe o valor da ", i , "ª medição: ")
         leia(medicoes)
 
-        se(medicoes <= 12){
-          escreva("pressão Controlada.","\n")
-          contadorPressaoControlada++
+        se(medicoes < 0){
+          escreva("Inválido.","\n")
         }senao se(medicoes > 12){
           escreva("pressão Elevada.","\n")
           contadorPressaoElevada++
-        }senao se(medicoes < 0){
-          escreva("invádio. ","\n")
+        }senao se(medicoes <= 12){
+          escreva("pressão controlada ","\n")
+            contadorPressaoControlada++
         }
         totalmedicoes = totalmedicoes + medicoes
 
